@@ -13,6 +13,7 @@
 		html{
 			font-family: arial;
 			font-size: 62.5%; 
+			scroll-behavior: smooth; /* Para fazer animação de rolagem para o fim ou inicio da pagina */
 		}
 		header{
 			background: linear-gradient(to top, #fff, #FF4500);
