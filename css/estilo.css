@@ -102,7 +102,7 @@
 
 		#compras{
 			background-color: rgba(255, 215, 0, 0.5); /* cor de fundo do site*/
-			width: 300px; /* width - largura */
+			width: 200px; /* width - largura */
 			height: 150px; /* height - altura*/
 			right: 0; /* right - para a direita do site, left - para a esquerda */
 			position: fixed; /* position para posicionar o conteudo */
@@ -135,16 +135,39 @@
 
 		#compras-texto{
 			text-align: center;
-			margin-top: 1rem;
+			margin-top: 2rem;
 		}
 
 		#btn-compras{
-			background-color: rgb(46,139,87);
-			color: #fff;
-			font-weight: bold;
+			/* background-color: rgb(46,139,87); */
+			/* color: #fff; */
+			margin-top: 2rem; 
+			/* font-weight: bold; /*
 			padding: 5px;
 			border-right: 5px;
-			border:solid #fff;
+			/* border:solid #fff; */
+			text-align: center;
+
+		}
+
+		@media(min-width: 280px) and (max-width: 820px){
+
+			#compras-texto{
+			text-align: center;
+			margin-top: 0rem;
+			}
+
+			#btn-compras{
+			/* background-color: rgb(46,139,87); */
+			/* color: #fff; */
+			margin-top: 2rem; 
+			/* font-weight: bold; /*
+			padding: 5px;
+			border-right: 5px;
+			/* border:solid #fff; */
+			text-align: center;
+
+			}
 		}
 
 		#grid-conteudo{
